@@ -1,15 +1,17 @@
 <h1 align="center">汉语新解</h1>
 
-
 <p align="center">
 <img alt="Static Badge" src="https://img.shields.io/badge/chrome_plugin-black?style=flat&logo=googlechrome&logoColor=violet&logoSize=auto">
+
 <img alt="Static Badge" src="https://img.shields.io/badge/manifest_3.0-green">
 
 <img alt="Static Badge" src="https://img.shields.io/badge/made_by-PandaJay-blue">
 
 <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat">
 
-<img alt="Static Badge" src="https://img.shields.io/badge/Author's-homepage-yellow?style=flat&logo=homepage&logoColor=violet&logoSize=auto&link=https%3A%2F%2Fsif8f6uboze.feishu.cn%2Fwiki%2FJQd2wCfapi5WtAkTRCsct8vNnjc">
+<img alt="Static Badge" src="https://img.shields.io/badge/HTML5-purple?style=flat&logo=html5">
+
+<img alt="Static Badge" src="https://img.shields.io/badge/JavaScript-blue?style=flat&logo=javascript&logoColor=white">
 
 </p>
 
@@ -78,25 +80,25 @@
 
 1、下载代码，通过 `Git Clone` 或者 `直接下载` 都可以，看个人喜好。下图为`直接下载`。
 
-![](images/introduction01.png)
+![](images/introduction24.png)
 
 
 
 2、浏览器输入地址 `chrome://extensions/` 进入插件安装页面。
 
-![](images/introduction05.png)
+![](images/introduction25.png)
 
 
 
 3、点击左上角 `Load unpacked` 加载从 GitHub 上下载的项目文件夹。
 
-![](images/introduction20.png)
+![](images/introduction26.png)
 
 
 
 4、建议将插件显示到浏览器插件清单（可选）。
 
-![](images/introduction21.png)
+![](images/introduction27.png)
 
 
 
@@ -108,27 +110,27 @@
 
 1、浏览器访问 [智谱 AI 开放平台](https://www.bigmodel.cn/invite?icode=T7iYC9jW4YbXn6iCxIkCSlwpqjqOwPB5EXW6OL4DgqY%3D) , 注册或者登录账号。
 
-![](images/introduction06.png)
+![](images/introduction28.png)
 
 
 
 2、登录成功后，进入 [控制台](https://bigmodel.cn/console/overview)，点击访问右上角 **API 密钥**。
 
-![image-20240915155354532](images/introduction08.png)
+![](images/introduction29.png)
 
 
 
 3、创建 API 密钥后，再将对应的 API Key 复制下来。
 
-![](images/introduction11.png)
+![](images/introduction30.png)
 
-![image-20240915170737396](images/introduction12.png)
+![](images/introduction31.png)
 
 
 
 4、最后，进入插件配置页面，将 **API Key** 配置到插件里。
 
-![](images/introduction13.png)
+![](images/introduction32.png)
 
 
 
@@ -136,9 +138,7 @@
 
 > 模型：glm-4-flash 完全免费。**glm-4-plus** 文字效果更好，不过有免费额度，但是，赠送的额度对大多数人来说，基本上也够用。
 
-
-
-![image-20240915170956307](images/introduction14.png)
+![](images/introduction33.png)
 
 
 
@@ -148,13 +148,13 @@
 
 1、进入任何网页，滑动选中想要解读的词汇，点击浮动按钮 **汉语新解**，等待侧边栏生成图片。
 
-![](images/introduction15.png)
+![](images/introduction34.png)
 
 
 
 2、生成图片后，可以点击 **下载图片** 进行下载。
 
-![](images/introduction18.png)
+![](images/introduction35.png)
 
 
 
@@ -166,7 +166,7 @@
 
 3、如果需要更换模型或者 API Key, 也可以点击 侧边栏的⚙️ 图标进入配置页面。
 
-![](images/introduction19.png)
+![](images/introduction36.png)
 
 
 
