@@ -1,0 +1,38 @@
+# WebStorm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Visual Studio Code
+.vscode/
+
+# Cursor
+*.cur
+
+# 忽略操作系统生成的文件
+.DS_Store
+Thumbs.db
+*.pid
+*.seed
+
+# 忽略编译生成的文件
+*.class
+*.jar
+*.log
+*.war
+
+# 忽略IDE生成的文件
+*.bak
+*.swp
+*.swo
+
+# 忽略系统和用户生成的临时文件
+*.tmp
+*.temp
+*~.nib
+*~
+
+# 忽略版本库文件
+*.gitignore
+*.git/
