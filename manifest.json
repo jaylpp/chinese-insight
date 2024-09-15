@@ -11,20 +11,20 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["html2canvas.min.js", "content.js"]
+      "js": ["tools/html2canvas.min.js", "content.js"]
     }
   ],
   "web_accessible_resources": [
     {
-      "resources": ["html2canvas.min.js"],
+      "resources": ["tools/html2canvas.min.js"],
       "matches": ["<all_urls>"]
     },
     {
-        "resources": ["templates.json"],
+        "resources": ["template/templates.json"],
         "matches": ["<all_urls>"]
     },
     {
-      "resources": ["template.json"],
+      "resources": ["template/template.json"],
       "matches": ["<all_urls>"]
     }
   ],

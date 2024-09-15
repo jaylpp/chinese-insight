@@ -21,7 +21,7 @@
             --primary-color: #8DB600; /* 清新的绿色，用于背景文字 */
             --secondary-color: #B0E0E6; /* 淡雅的青色，用于标题背景 */
             --accent-color: #32CD32; /* 生机勃勃的绿色，用于强调元素 */
-            --background-color: #F0FFF0; /* 淡绿色，用于页面背景 */
+            --background-color: #F8FAF5; /* 米黄色，用于页面背景 */
             --text-color: #006400; /* 深绿色，用于主要文字 */
             --light-text-color: #6B8E23; /* 中绿色，用于次要文字 */
             --divider-color: #9ACD32; /* 柔和的绿色，用于分隔线 */
@@ -38,8 +38,8 @@
             color: var(--text-color); /* 使用深绿色作为主要文字颜色 */
         }
         .card {
-            width: 300px;
-            height: auto;
+            width: 350px;
+            height: 520px;
             background-color: #F0FFF0; /* 淡绿色，用于卡片背景 */
             border-radius: 20px;
             box-shadow: 0 20px 40px rgba(0,0,0,0.1);
@@ -51,7 +51,8 @@
         .header {
             background-color: var(--secondary-color); /* 使用淡雅的青色作为标题背景 */
             color: #F0FFF0; /* 浅色文字与深色背景形成对比 */
-            padding: 20px;
+            height: 80px;
+            padding: 10px 20px;
             text-align: left;
             position: relative;
             z-index: 1;
@@ -150,7 +151,7 @@
 </html>
 ```
 
-![](image-20240913105542798.png)
+![](template01.png)
 
 
 
@@ -189,8 +190,8 @@
             color: var(--text-color);
         }
         .card {
-            width: 300px;
-            height: auto;
+            width: 350px;
+            height: 520px;
             background-color: #FFFFFF;
             border-radius: 20px;
             box-shadow: 0 20px 40px rgba(0,0,0,0.1);
@@ -202,7 +203,8 @@
         .header {
             background-color: var(--secondary-color);
             color: #FFFFFF;
-            padding: 20px;
+            height: 80px;
+            padding: 10px 20px;
             text-align: left;
             position: relative;
             z-index: 1;
@@ -301,7 +303,7 @@
 </html>
 ```
 
-![image-20240913105904001](image-20240913105904001.png)
+![image-20240913105904001](template02.png)
 
 
 
@@ -338,8 +340,8 @@
             color: var(--text-color);
         }
         .card {
-            width: auto;
-            height: auto;
+            width: 350px;
+            height: 520px;
             background-color: var(--secondary-color);
             border-radius: 20px;
             box-shadow: 0 20px 40px rgba(0,0,0,0.1);
@@ -352,7 +354,8 @@
         .header {
             background-color: var(--primary-color);
             color: #F9F5E7;
-            padding: 20px;
+            height: 80px;
+            padding: 10px 20px;
             text-align: left;
             position: relative;
             z-index: 1;
@@ -451,7 +454,7 @@
 </html>
 ```
 
-![image-20240913110146257](image-20240913110146257.png)
+![image-20240913110146257](template03.png)
 
 
 
@@ -488,8 +491,8 @@
             color: var(--text-color); /* 使用深灰色作为主要文字颜色 */
         }
         .card {
-            width: 300px;
-            height: auto;
+            width: 350px;
+            height: 520px;
             background-color: var(--secondary-color); /* 使用淡绿色作为卡片背景 */
             border-radius: 20px;
             box-shadow: 0 20px 40px rgba(0,0,0,0.1);
@@ -501,7 +504,8 @@
         .header {
             background-color: var(--primary-color); /* 使用清新的绿色作为标题背景 */
             color: #fff; /* 白色文字与深色背景形成对比 */
-            padding: 20px;
+            height: 80px;
+            padding: 10px 20px;
             text-align: left;
             position: relative;
             z-index: 1;
@@ -600,7 +604,7 @@
 </html>
 ```
 
-![](image-20240913160542878-6276769.png)
+![](template05.png)
 
 
 
@@ -641,8 +645,8 @@
             color: var(--text-color); /* 使用深墨绿色作为主要文字颜色 */
         }
         .card {
-            width: 300px;
-            height: auto;
+            width: 350px;
+            height: 520px;
             background-color: #FFFFFF; /* 白色，用于卡片背景 */
             border-radius: 20px;
             box-shadow: 0 20px 40px rgba(0,0,0,0.1);
@@ -654,7 +658,8 @@
         .header {
             background-color: var(--secondary-color); /* 使用米白色作为标题背景 */
             color: #495057; /* 深墨绿色文字与米白色背景形成对比 */
-            padding: 20px;
+            height: 80px;
+            padding: 10px 20px;
             text-align: left;
             position: relative;
             z-index: 1;
@@ -788,8 +793,8 @@
             color: var(--text-color); /* 使用深灰色作为主要文字颜色 */
         }
         .card {
-            width: 300px;
-            height: auto;
+            width: 350px;
+            height: 520px;
             background-color: #FFFFFF; /* 白色，用于卡片背景 */
             border-radius: 20px;
             box-shadow: 0 20px 40px rgba(0,0,0,0.1);
@@ -801,7 +806,8 @@
         .header {
             background-color: var(--primary-color); /* 使用天青石蓝作为标题背景 */
             color: #FFFFFF; /* 白色文字与深色背景形成对比 */
-            padding: 20px;
+            height: 80px;
+            padding: 10px 20px;
             text-align: left;
             position: relative;
             z-index: 1;
@@ -900,7 +906,7 @@
 </html>
 ```
 
-![image-20240913161200021](image-20240913161200021.png)
+![image-20240913161200021](template06.png)
 
 ### 七、模板 7：绿色 05
 
@@ -937,8 +943,8 @@
             color: var(--text-color);
         }
         .card {
-            width: 300px;
-            height: auto;
+            width: 350px;
+            height: 520px;
             background-color: #fff;
             border-radius: 20px;
             box-shadow: 0 20px 40px rgba(0,0,0,0.1);
@@ -950,7 +956,8 @@
         .header {
             background-color: var(--primary-color);
             color: #fff;
-            padding: 20px;
+            height: 80px;
+            padding: 10px 20px;
             text-align: left;
             position: relative;
             z-index: 1;
@@ -1049,7 +1056,7 @@
 </html>
 ```
 
-![image-20240913161323690](image-20240913161323690.png)
+![image-20240913161323690](template07.png)
 
 
 

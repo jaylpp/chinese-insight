@@ -161,7 +161,7 @@ async function fetchExplanation(text) {
     imageContainer.innerHTML = '<p>不建议文本长度超过10哦～</p>';
     return;
   }
-  
+
   imageContainer.innerHTML = '<p>正在分析，请稍候...</p>';
 
   // 获取 options.html 中的配置项
@@ -266,7 +266,7 @@ async function fetchExplanationWithConfig(imageContainer, text, apiKey, model) {
         align-items: center;
         background-color: ${divBackgroundColor};
     `;
-    
+
     console.log("divBackgroundColor:", divBackgroundColor);
 
     document.body.appendChild(tempDiv);
@@ -282,7 +282,7 @@ async function fetchExplanationWithConfig(imageContainer, text, apiKey, model) {
     }).then(canvas => {
       // 将 canvas 转换为图片 URL
       const imgUrl = canvas.toDataURL('image/png');
-      
+
       // 创建 img 元素并设置其 src
       const img = document.createElement('img');
       img.src = imgUrl;
@@ -328,7 +328,7 @@ let templates;
 
 // 新增函数：加载模板
 function loadTemplates() {
-  return fetch(chrome.runtime.getURL('template.json'))
+  return fetch(chrome.runtime.getURL('template/template.json'))
     .then(response => response.json())
     .catch(error => {
       console.error('加载模板文件时出错:', error);

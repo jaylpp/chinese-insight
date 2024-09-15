@@ -31,8 +31,8 @@
             color: var(--text-color);
         }
         .card {
-            width: 300px;
-            height: 500px;
+            width: 350px;
+            height: 520px;
             background-color: #FFFFFF;
             border-radius: 20px;
             box-shadow: 0 20px 40px rgba(0,0,0,0.1);
@@ -44,7 +44,8 @@
         .header {
             background-color: var(--primary-color);
             color: #FFFFFF;
-            padding: 20px;
+            height: 80px;
+            padding: 10px 20px;
             text-align: left;
             position: relative;
             z-index: 1;
@@ -145,7 +146,7 @@
 
 
 
-![image-20240913162606233](image-20240913162606233.png)
+![image-20240913162606233](template08.png)
 
 ### 九、模板 9：深蓝 01
 
@@ -179,8 +180,8 @@
             color: var(--text-color);
         }
         .card {
-            width: 300px;
-            height: 500px;
+            width: 350px;
+            height: 520px;
             background-color: #FFFFFF;
             border-radius: 20px;
             box-shadow: 0 20px 40px rgba(0,0,0,0.1);
@@ -192,7 +193,8 @@
         .header {
             background-color: var(--primary-color);
             color: #FFFFFF;
-            padding: 20px;
+            height: 80px;
+            padding: 10px 20px;
             text-align: left;
             position: relative;
             z-index: 1;
@@ -293,7 +295,7 @@
 
 
 
-![](image-20240914092843863.png)
+![](template09.png)
 
 
 
@@ -330,8 +332,8 @@
             color: var(--text-color);
         }
         .card {
-            width: 300px;
-            height: 500px;
+            width: 350px;
+            height: 520px;
             background-color: #FFFAF0; /* 花白色 */
             border-radius: 20px;
             box-shadow: 0 20px 40px rgba(0,0,0,0.1);
@@ -343,7 +345,8 @@
         .header {
             background-color: var(--secondary-color);
             color: #FFF8DC;
-            padding: 20px;
+            height: 80px;
+            padding: 10px 20px;
             text-align: left;
             position: relative;
             z-index: 1;
@@ -444,7 +447,7 @@
 
 
 
-![image-20240913163634548](image-20240913163634548.png)
+![image-20240913163634548](template10.png)
 
 
 
