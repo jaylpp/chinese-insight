@@ -1,0 +1,45 @@
+{
+  "manifest_version": 3,
+  "name": "汉语新解",
+  "version": "1.0",
+  "description": "选中汉语词汇,获取有趣解释和图片",
+  "permissions": ["activeTab", "storage", "tabs"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["html2canvas.min.js", "content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["html2canvas.min.js"],
+      "matches": ["<all_urls>"]
+    },
+    {
+        "resources": ["templates.json"],
+        "matches": ["<all_urls>"]
+    },
+    {
+      "resources": ["template.json"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  },
+  "options_page": "options.html",
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  }
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>汉语新解 - 配置</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .form-container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #34495e;
+        }
+        select, input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #bdc3c7;
+            border-radius: 4px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+            box-sizing: border-box;
+        }
+        select:focus, input[type="text"]:focus {
+            outline: none;
+            border-color: #3498db;
+        }
+        button {
+            background-color: #3498db;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+            display: block;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+        .info {
+            background-color: #ecf0f1;
+            padding: 15px;
+            border-radius: 4px;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #7f8c8d;
+        }
+        .acknowledgement {
+            background-color: #ffffff;
+            padding: 10px;
+            margin-top: 10px;
+        }
+        .acknowledgement h2 {
+            color: #2c3e50;
+            font-size: 20px;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        .acknowledgement p {
+            margin: 10px 0;
+            line-height: 1.5;
+        }
+        .acknowledgement a {
+            color: #3498db;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .acknowledgement a:hover {
+            color: #2980b9;
+        }
+        .qr-code {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .qr-code img {
+            max-width: 500px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .qr-code p {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>汉语新解 - 配置</h1>
+    <div class="form-container">
+        <div class="form-group">
+            <label for="modelName">模型名称:</label>
+            <select id="modelName">
+                <option value="glm-4-plus">glm-4-plus</option>
+                <option value="glm-4-0520">glm-4-0520</option>
+                <option value="glm-4">glm-4</option>
+                <option value="glm-4-air">glm-4-air</option>
+                <option value="glm-4-airx">glm-4-airx</option>
+                <option value="glm-4-long">glm-4-long</option>
+                <option value="glm-4-flash">glm-4-flash</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="apiKey">API Key:</label>
+            <input type="text" id="apiKey">
+        </div>
+        <button id="save">保存配置</button>
+        <div class="acknowledgement">
+            <p><strong>鸣谢：</strong>感谢思路提供者：@李继刚老师，感谢 @云中江树 老师的国内提示词思路。</p>
+            <p><strong>插件作者主页：</strong><a href="https://sif8f6uboze.feishu.cn/wiki/JQd2wCfapi5WtAkTRCsct8vNnjc" target="_blank">https://sif8f6uboze.feishu.cn/wiki/JQd2wCfapi5WtAkTRCsct8vNnjc</a></p>
+        </div>
+    </div>
+
+    <div class="qr-code">
+        <img src="images/qr-code.png" alt="关注我">
+        <p><strong>扫描二维码关注我，定期分享各种 AI 干货</strong></p>
+    </div>
+    <div class="info">
+        <strong>注意：</strong> 请选择适合您需求的模型，目前仅支持 GLM-4 相关模型，并确保 API Key 的安全性。
+    </div>
+    <script src="options.js"></script>
+</body>
+</html>
