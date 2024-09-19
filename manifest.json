@@ -3,7 +3,7 @@
   "name": "汉语新解",
   "version": "1.0",
   "description": "选中汉语词汇,获取有趣解释和图片",
-  "permissions": ["activeTab", "storage", "tabs"],
+  "permissions": ["storage"],
   "host_permissions": ["<all_urls>"],
   "background": {
     "service_worker": "background.js"
