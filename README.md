@@ -76,6 +76,13 @@
 
 ## 安装插件
 
+### 1、安装插件（谷歌商店）
+
+谷歌商店地址：[汉语新解](https://chromewebstore.google.com/detail/%E6%B1%89%E8%AF%AD%E6%96%B0%E8%A7%A3/pnpajljeppgpoelfldccfnmhkidmahfc?hl=en-US&utm_source=ext_sidebar)
+
+建议谷歌商店直接下载，更加方便。
+
+### 2、安装插件（源码安装）
 
 
 1、下载代码，通过 `Git Clone` 或者 `直接下载` 都可以，看个人喜好。下图为`直接下载`。
